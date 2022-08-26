@@ -51,7 +51,8 @@ h1 {
 p.update {
     font-style: italic;
     border-left: 2px solid #fff;
-    padding-left: 5px
+    padding-left: 8px;
+		margin-left: 16px;
 }
 
 
