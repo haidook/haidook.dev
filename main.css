@@ -9,16 +9,12 @@ body {
     line-height: 1.35;
 }
 
-div.nav {
-    border-bottom: 2px solid;
+nav {
+	border-bottom: 2px solid;
+	padding: 1em 0;
 }
 
-li.menu {
-    display: inline;
-    padding-right: 10px;
-}
-
-li.menu a {
+nav a {
     margin-right: 10px;
     text-decoration: none;
 }
