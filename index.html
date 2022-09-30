@@ -6,60 +6,64 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>haidook</title>
 	<link rel="stylesheet" href="main.css" />
+	<link rel="stylesheet" href="unpoly.min.css" />
+	<script src="unpoly.min.js"></script>
 </head>
 
 <body>
 	<nav>
-		<a href="index.html">Home</a>
-		<a href="nice.html">Nice</a>
-		<a href="useful.html">Useful</a>
-		<a href="bookshelf.html">Bookshelf</a>
-		<a href="wishlist.html">Wishlist</a>
+		<a href="index.html" up-target="main" up-transition="cross-fade">Home</a>
+		<a href="nice.html" up-target="main" up-transition="cross-fade">Nice</a>
+		<a href="useful.html" up-target="main" up-transition="cross-fade">Useful</a>
+		<a href="bookshelf.html" up-target="main" up-transition="cross-fade">Bookshelf</a>
+		<a href="wishlist.html" up-target="main" up-transition="cross-fade">Wishlist</a>
 	</nav>
 
 	<!-- ^ Everywhere ^ -->
-
-	<h1>Hey there!!!</h1>
-	<p>Welcome to my website. Currently it's a work in progress.</p>
-	<p class="update">Update: still in progress...updating every 6 months :))
-	<p>
-	<p>Just like my learning. I want to be a web dev.</p>
-	<p class="update">Update: this is still in progress...making some progress, but not quite towards web dev as a code
-		writer; but learning so much about all the ecosystem
-	<p>
-	<p>So this here will be my personal projects.</p>
-	<p class="update">Update: nothing to show so far :(
-	<p>
-	<p>If it looks nice and has some interesting links, it means i'm getting there.</p>
-	<p class="update">Update: trying to put something here to browser; i'll try harder
-	<p>If not...nah, not gonna talk about that.</p>
-	<p>Anyway, if you're here and want to follow my journey, i will sometimes post on my <del>blog</del>.</p>
-	<p class="update">Update 2: my rpi server broke and i don't have a blog anymore... ANOTHER DAY...maybe
-	<p>
-	<p class="update">Update: didn't start posting so far...it's been 3 months. One day. ONE DAY!
-	<p>
-	<p>I might even resume streaming on <a href="https://www.twitch.tv/haidook">twitch</a> at one point.</p>
-	<p class="update">Update 2: the chance is up to 15% if i do at least one stream until de end of the year</p>
-	<p class="update">Update: hah...would be nice, but i give this one a 5% chance</p>
-	<p>Or just take a look at my ramblings on <del>Fosstodon</del>.</p>
-	<p class="update">Update 2: yeah, no more social for me...other stuff to do</p>
-	<p class="update">Update: i kinda quit all social media. I'm not randomly browsing anymore. Just some newsletters. Not
-		even checking HackerNews that often. Like once a week. I might link some nice newsletters here at one point.</p>
-	<h3>Thank you for passing by!</h3>
-	<p><em>Last update: 26.08.2022</em></p>
-	<h4>Changelog</h4>
-	<ul>
-		<li>server broke. moved to github pages</li>
-		<li>removed matomo analytics and blog</li>
-		<li>added some light css; using this <a href="https://flatuicolors.com/palette/de">color palette</a></li>
-		<li>some updates</li>
-	</ul>
-	<h4>ToDo</h4>
-	<ul>
-		<li>look into static site generators. hugo, jekyll, this kinda of stuff. apparently i could host django or pelican
-			on github with actions</li>
-		<li>Implement <a href="https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web/">dark mode toggle</a></li>
-	</ul>
+	<main>
+		<h1>Hey there!!!</h1>
+		<p>Welcome to my website. Currently it's a work in progress.</p>
+		<p class="update">Update: still in progress...updating every 6 months :))
+		<p>
+		<p>Just like my learning. I want to be a web dev.</p>
+		<p class="update">Update: this is still in progress...making some progress, but not quite towards web dev as a code
+			writer; but learning so much about all the ecosystem
+		<p>
+		<p>So this here will be my personal projects.</p>
+		<p class="update">Update: nothing to show so far :(
+		<p>
+		<p>If it looks nice and has some interesting links, it means i'm getting there.</p>
+		<p class="update">Update: trying to put something here to browser; i'll try harder
+		<p>If not...nah, not gonna talk about that.</p>
+		<p>Anyway, if you're here and want to follow my journey, i will sometimes post on my <del>blog</del>.</p>
+		<p class="update">Update 2: my rpi server broke and i don't have a blog anymore... ANOTHER DAY...maybe
+		<p>
+		<p class="update">Update: didn't start posting so far...it's been 3 months. One day. ONE DAY!
+		<p>
+		<p>I might even resume streaming on <a href="https://www.twitch.tv/haidook">twitch</a> at one point.</p>
+		<p class="update">Update 2: the chance is up to 15% if i do at least one stream until de end of the year</p>
+		<p class="update">Update: hah...would be nice, but i give this one a 5% chance</p>
+		<p>Or just take a look at my ramblings on <del>Fosstodon</del>.</p>
+		<p class="update">Update 2: yeah, no more social for me...other stuff to do</p>
+		<p class="update">Update: i kinda quit all social media. I'm not randomly browsing anymore. Just some newsletters.
+			Not
+			even checking HackerNews that often. Like once a week. I might link some nice newsletters here at one point.</p>
+		<h3>Thank you for passing by!</h3>
+		<p><em>Last update: 26.08.2022</em></p>
+		<h4>Changelog</h4>
+		<ul>
+			<li>server broke. moved to github pages</li>
+			<li>removed matomo analytics and blog</li>
+			<li>added some light css; using this <a href="https://flatuicolors.com/palette/de">color palette</a></li>
+			<li>some updates</li>
+		</ul>
+		<h4>ToDo</h4>
+		<ul>
+			<li>look into static site generators. hugo, jekyll, this kinda of stuff. apparently i could host django or pelican
+				on github with actions</li>
+			<li>Implement <a href="https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web/">dark mode toggle</a></li>
+		</ul>
+	</main>
 </body>
 
 </html>

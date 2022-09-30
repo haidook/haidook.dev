@@ -6,59 +6,61 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>haidook</title>
 	<link rel="stylesheet" href="main.css" />
+	<link rel="stylesheet" href="unpoly.min.css" />
+	<script src="unpoly.min.js"></script>
 </head>
 
 <body>
 	<nav>
-		<a href="index.html">Home</a>
-		<a href="nice.html">Nice</a>
-		<a href="useful.html">Useful</a>
-		<a href="bookshelf.html">Bookshelf</a>
-		<a href="wishlist.html">Wishlist</a>
+		<a href="index.html" up-target="main" up-transition="cross-fade">Home</a>
+		<a href="nice.html" up-target="main" up-transition="cross-fade">Nice</a>
+		<a href="useful.html" up-target="main" up-transition="cross-fade">Useful</a>
+		<a href="bookshelf.html" up-target="main" up-transition="cross-fade">Bookshelf</a>
+		<a href="wishlist.html" up-target="main" up-transition="cross-fade">Wishlist</a>
 	</nav>
 
 	<!-- ^ Everywhere ^ -->
+	<main>
+		<h1>Digital BookShelf</h1>
+		<em>last update: 2022-09-12</em>
+		<p>Keeping track of books i read. Maybe seeing them here will make me read more of them</p>
+		<h2>2022</h2>
+		<div class="row">
+			<div class="column">
+				<img src="/img/rest-min.jpg" alt="Rest: Why You Get More Done When You Work Less" style="width:100%">
+			</div>
+			<div class="column">
+				<img src="/img/range-min.jpg" alt="Range: Why Generalists Triumph in a Specialized World" style="width:100%">
+			</div>
+			<div class="column">
+				<img src="/img/how-to-change-min.jpg" alt="How to change" style="width:100%">
+			</div>
+		</div>
 
-	<h1>Digital BookShelf</h1>
-	<em>last update: 2022-09-12</em>
-	<p>Keeping track of books i read. Maybe seeing them here will make me read more of them</p>
-	<h2>2022</h2>
-	<div class="row">
-		<div class="column">
-			<img src="/img/rest-min.jpg" alt="Rest: Why You Get More Done When You Work Less" style="width:100%">
+		<div class="row">
+			<div class="column">
+				<img src="/img/making-things-happen.jpg" alt="Making Things Happen" style="width:100%">
+			</div>
+			<div class="column">
+				<img src="/img/the-serendipity-mindset-min.jpeg" alt="The Serendipity Mindset" style="width:100%">
+			</div>
+			<div class="column">
+				<img src="/img/exponential-min.jpeg" alt="Exponential" style="width:100%">
+			</div>
 		</div>
-		<div class="column">
-			<img src="/img/range-min.jpg" alt="Range: Why Generalists Triumph in a Specialized World" style="width:100%">
-		</div>
-		<div class="column">
-			<img src="/img/how-to-change-min.jpg" alt="How to change" style="width:100%">
-		</div>
-	</div>
 
-	<div class="row">
-		<div class="column">
-			<img src="/img/making-things-happen.jpg" alt="Making Things Happen" style="width:100%">
+		<div class="row">
+			<div class="column">
+				<img src="/img/dune3-min.jpeg" alt="Children of Dune" style="width:100%">
+			</div>
+			<div class="column">
+				<img src="/img/dune2-min.jpeg" alt="Dune Messiah" style="width:100%">
+			</div>
+			<div class="column">
+				<img src="/img/dune1-min.jpg" alt="Dune" style="width:100%">
+			</div>
 		</div>
-		<div class="column">
-			<img src="/img/the-serendipity-mindset-min.jpeg" alt="The Serendipity Mindset" style="width:100%">
-		</div>
-		<div class="column">
-			<img src="/img/exponential-min.jpeg" alt="Exponential" style="width:100%">
-		</div>
-	</div>
-
-	<div class="row">
-		<div class="column">
-			<img src="/img/dune3-min.jpeg" alt="Children of Dune" style="width:100%">
-		</div>
-		<div class="column">
-			<img src="/img/dune2-min.jpeg" alt="Dune Messiah" style="width:100%">
-		</div>
-		<div class="column">
-			<img src="/img/dune1-min.jpg" alt="Dune" style="width:100%">
-		</div>
-	</div>
-
+	</main>
 </body>
 
 </html>
