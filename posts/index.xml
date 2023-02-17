@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on haidook.dev</title>
+    <link>https://haidook.dev/posts/</link>
+    <description>Recent content in Posts on haidook.dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 09 Feb 2023 21:05:15 +0200</lastBuildDate><atom:link href="https://haidook.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building My Bookshelf Page</title>
+      <link>https://haidook.dev/posts/building-my-bookshelf-page/</link>
+      <pubDate>Thu, 09 Feb 2023 21:05:15 +0200</pubDate>
+      
+      <guid>https://haidook.dev/posts/building-my-bookshelf-page/</guid>
+      <description>Background On my old website version i had a bookshelf page where i put the books i read. It was a fancy way of tracking the books i read, aside from using literal.club.
+For some good years now, i&amp;rsquo;ve been tracking1 lots of stuff. From tv-shows watched to hours slept and from bike rides to read books. The book tracking is kinda recent&amp;hellip;or not. I just checked my goodreads and my first book is from 2015.</description>
+    </item>
+    
+  </channel>
+</rss>
